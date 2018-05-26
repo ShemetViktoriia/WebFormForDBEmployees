@@ -72,7 +72,7 @@
     <Content Include="App_Data\db_Employees_log.ldf">
       <DependentUpon>db_Employees.mdf</DependentUpon>
     </Content>
-    <Content Include="Employees.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Images\addnew.png" />
@@ -83,12 +83,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employees.aspx.cs">
-      <DependentUpon>Employees.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Employees.aspx.designer.cs">
-      <DependentUpon>Employees.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
